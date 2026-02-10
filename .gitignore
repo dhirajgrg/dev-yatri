@@ -1,5 +1,11 @@
-/*node_modules
-/*.env
-/**node_modules
-/**.env
-/*dist
+
+
+# Root ignore
+.env
+client/.env*
+server/.env*
+
+node_modules/
+client/node_modules/
+server/node_modules/
+
