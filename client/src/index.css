@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define variables here so they are available globally */
+:root {
+  --terminal-white: #FFFFFF;
+  --terminal-green: #C6FF5E;
+  --terminal-black: #000000;
+}
+
+body{
+  color:var(--terminal-white)
+}
+
